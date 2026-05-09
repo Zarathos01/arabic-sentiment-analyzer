@@ -221,7 +221,7 @@ def preprocess_text(
     emoji_mode='description',
     number_mode='normalize',
     remove_stops=True,
-    stem=True,
+    stem=False,
     convert_arabizi=True,
 ):
     """
